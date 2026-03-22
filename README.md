@@ -1,16 +1,23 @@
-# React + Vite
+# Task Management App — Week 3 Case
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Setup and run
+```bash
+git clone https://github.com/Dbinus/Aksub-Week3-FE.git
+cd ./Aksub-Week3-FE/
+npm install
+npm run dev
+```
 
-Currently, two official plugins are available:
+Buka browser `http://localhost:5173`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Penjelasan singkat
 
-## React Compiler
+- Menggunakan Vite + React
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Aplikasi dipecah ke beberapa komponen di file berbeda
 
-## Expanding the ESLint configuration
+- Menggunakan hook useState untuk menyimpan dan memanipulasi data
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Menggunakan event dan form handling React
+
+- Design sebisa mungkin mengikuti figma (tidak sama persis)
